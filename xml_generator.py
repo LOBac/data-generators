@@ -77,18 +77,18 @@ def generate_gen(id_: int) -> str:
     return xml_statement
 
 
-def main():
+def main(requested_items):
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
     bacterium_xml = open(f"{OUTPUT_DIR}/data.xml", "w")
     bacterium_xml.write("<?xml version=1.0?>\n\n")
     bacterium_xml.write("<Bacteria>")
 
-    for i in range(NUMBER_OF_ENTRIES):
+    for i in range(requested_items):
         bacterium_xml.write(generate_bacterium(i))
 
     bacterium_xml.write("<Bacteria>")
 
 
 if __name__ == "__main__":
-    main()
+    main(NUMBER_OF_ENTRIES)

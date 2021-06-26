@@ -69,15 +69,17 @@ def generate_gen(id_genome: int, id_gen: int) -> str:
         f"VALUES ('{seq}', '{id_genome}');"
 
 
-def main():
+def main(requested_items):
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
+
     bacterium_sql = open(f"{OUTPUT_DIR}/bacterium_table.sql", "w")
     taxonomy_sql = open(f"{OUTPUT_DIR}/taxonomy_table.sql", "w")
     disease_sql = open(f"{OUTPUT_DIR}/disease_table.sql", "w")
     genome_sql = open(f"{OUTPUT_DIR}/genome_table.sql", "w")
     gen_sql = open(f"{OUTPUT_DIR}/gen_table.sql", "w")
-    for i in range(NUMBER_OF_ENTRIES):
+
+    for i in range(requested_items):
         bac, specie = generate_bacterium()
         bacterium_sql.write(bac + "\n")
         taxonomy_sql.write(generate_taxonomy(specie) + "\n")
@@ -89,4 +91,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(NUMBER_OF_ENTRIES)
