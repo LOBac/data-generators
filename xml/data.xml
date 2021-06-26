@@ -1,0 +1,45 @@
+<?xml version=1.0?>
+
+<Bacteria>
+	<Bacterium>
+		<idBacterium>0</idBacterium>
+		<Morphology>Coccus</Morphology>
+		<Year>1821</Year>
+		<MetabolismType>Chemolithotroph</MetabolismType>
+		<MovementType>Corkscrew Motility</MovementType>
+		<OxygenDemand>Aerobic</OxygenDemand>
+		<GramStain>1</GramStain>
+		<Taxonomy>
+			<Phylum>Candidatus Modulibacteria</Phylum>
+			<Class>Rubrobacteria</Class>
+			<Order>Coprothermobacterales</Order>
+			<Family>Nocardiopsaceae</Family>
+			<Genus>Collinsella</Genus>
+			<Specie>Pseudomonas phage F_ET309sp/Pa1651</Specie>
+		</Taxonomy>
+		<Diseases>
+			<Disease>
+				<NameDisease>Interstitial cystitis</NameDisease>
+				<Symptoms>exophthalmos(H05.2), painful intercourse(N94.1), opisthotonus</Symptoms>
+				<HasCure>0</HasCure>
+				<Description>Some description about the disease...</Description>
+			</Disease>
+			<Disease>
+				<NameDisease>Mad cow disease</NameDisease>
+				<Symptoms>blood in stool: melena(K92.1), hematochezia, proctalgia fugax, cough(R05), vaginal bleeding in early pregnancy / miscarriage, Rectal tenesmus, bleeding:, abnormal posturing</Symptoms>
+				<HasCure>1</HasCure>
+				<Description>Some description about the disease...</Description>
+			</Disease>
+		</Diseases>
+		<Genome>
+			<idGenome>0</idGenome>
+			<Category>PLASMID</Category>
+			<Genes>
+				<Gene>
+					<idGen>0</idGen>
+					<Sequence>AGCCGTCCCCCATGATGGAGCTATCCTTGAAGCCGGATGGCCGAAATTTGATTCGATAGCTCTACGG</Sequence>
+				</Gene>
+			</Genes>
+		</Genome>
+	</Bacterium>
+	<Bacteria>
