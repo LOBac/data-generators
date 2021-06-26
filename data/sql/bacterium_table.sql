@@ -1,0 +1,1 @@
+INSERT INTO `bacterium`.`Bacterium` (`Morphology`, `YearOfDiscovery`, `TypeMetabolism`, `Movement`, `OxygenDemand`, `GramStain`, `Taxonomy_Species`) VALUES ('Other','1785','Phototroph','Chemotaxis','Aerobic','1','Tomato rugose yellow leaf curl virus');

@@ -1,0 +1,1 @@
+INSERT INTO `bacterium`.`Taxonomy` (`Phylum`, `Class`, `Order`, `Family`, `Genus`, `Species`) VALUES ('Candidatus Aminicenantes','Acidimicrobiia','Holophagales','Dermatophilaceae','Eggerthella','Tomato rugose yellow leaf curl virus');
