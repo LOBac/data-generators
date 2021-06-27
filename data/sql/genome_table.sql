@@ -1,1 +1,10 @@
-INSERT INTO `bacterium`.`Genome` (`Category`, `Bacterium_idBacterium`) VALUES ('PLASMID', '0');
+INSERT INTO `bacterium`.`Genome` (`Category`, `Bacterium_idBacterium`) VALUES ('CIRCULAR', '0');
+INSERT INTO `bacterium`.`Genome` (`Category`, `Bacterium_idBacterium`) VALUES ('PLASMID', '1');
+INSERT INTO `bacterium`.`Genome` (`Category`, `Bacterium_idBacterium`) VALUES ('MEGAPLASMID', '2');
+INSERT INTO `bacterium`.`Genome` (`Category`, `Bacterium_idBacterium`) VALUES ('MEGAPLASMID', '3');
+INSERT INTO `bacterium`.`Genome` (`Category`, `Bacterium_idBacterium`) VALUES ('MEGAPLASMID', '4');
+INSERT INTO `bacterium`.`Genome` (`Category`, `Bacterium_idBacterium`) VALUES ('PLASMID', '5');
+INSERT INTO `bacterium`.`Genome` (`Category`, `Bacterium_idBacterium`) VALUES ('CIRCULAR', '6');
+INSERT INTO `bacterium`.`Genome` (`Category`, `Bacterium_idBacterium`) VALUES ('LINEAR', '7');
+INSERT INTO `bacterium`.`Genome` (`Category`, `Bacterium_idBacterium`) VALUES ('CIRCULAR', '8');
+INSERT INTO `bacterium`.`Genome` (`Category`, `Bacterium_idBacterium`) VALUES ('MEGAPLASMID', '9');
