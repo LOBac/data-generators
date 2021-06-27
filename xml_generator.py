@@ -87,7 +87,7 @@ def main(requested_items):
     for i in range(requested_items):
         bacterium_xml.write(generate_bacterium(i))
 
-    bacterium_xml.write("<Bacteria>")
+    bacterium_xml.write("</Bacteria>")
 
 
 if __name__ == "__main__":
