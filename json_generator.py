@@ -1,7 +1,8 @@
-from common import *
-from random import choice, randint
 import json
 import os
+from random import choice, randint
+
+from common import *
 
 NUMBER_OF_ENTRIES = 1000
 OUTPUT_DIR = "data/json"
